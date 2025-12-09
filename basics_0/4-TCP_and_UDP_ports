@@ -1,2 +1,3 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
+#sockets
 netstat -a -b
