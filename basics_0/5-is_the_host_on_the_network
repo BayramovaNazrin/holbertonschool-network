@@ -6,9 +6,6 @@ if [[ -z $1 ]];
 then 
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
-	a = $1
-	for i in $(5)
-	do 
-		ping [a]
-	done
+	a=$1
+	ping -c 5 $a
 fi
