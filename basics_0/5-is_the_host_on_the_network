@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#ping IP
 
 
 if [[ -z $1 ]];
