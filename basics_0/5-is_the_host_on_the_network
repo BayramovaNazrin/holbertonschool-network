@@ -7,5 +7,5 @@ then
 	echo "Usage: 5-is_the_host_on_the_network {IP_ADDRESS}"
 else
 	a=$1
-	ping -c 5 $a
+	ping -c 5 "$a"
 fi
