@@ -2,4 +2,4 @@
 #displaying attached IPs
 
 
-ipconfig
+ipconfig | grep -w "inet" | awk '{print $2}'
